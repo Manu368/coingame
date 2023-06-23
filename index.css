@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100;200;300;400;500;600;700;800;900&family=Lato:wght@100;300;400;700;900&family=Libre+Franklin:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.bg-container01{
+    background-color: #323f4b;
+    background-size: cover;
+}
+.card{
+    background-image: linear-gradient(#500097,  #502da8, #500097, #6f42c1) !important;
+}
+.game-heading{
+    color: #fff;
+    font-size: 28px;
+    font-weight: 400;
+}
+@media screen and (min-width: 768px) {
+    .card{
+        background-image: linear-gradient(#500097,  #502da8, #500097, #6f42c1) !important;
+        margin: 0px 100px 0px 100px;
+    }
+    
+}
+
+@media screen and (max-width: 767px) {
+    .card{
+        background-image: linear-gradient(#500097,  #502da8, #500097, #6f42c1) !important;
+    }
+    
+}
+.modal-body, .modal-title{
+    color: #fff !important;
+}
+.modal-content{
+    background-color: #1a0031 !important;
+}
+.button01{
+    background-color: #502da8;
+    color: #fff;
+    width: 80px;
+    height: 40px;
+    border: 0px;
+}
+.button02{
+    background-color: #936ef0;
+    color: #fff;
+    width: 120px;
+    height: 40px;
+    border: 0px;
+}
+.game-video{
+    background-color: #936ef0;
+    color: #fff;
+    width: 120px;
+    height: 40px;
+    border: 0px;
+}
+.coin-image {
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+    transition: transform 0.1s;
+    transform-style: preserve-3d;
+    transform: rotateX(-50deg);  
+  }
+  .flipped.move-animation {
+    animation: flip-move-animation 2s ease-in-out forwards;
+    height: 150px;
+    width: 50%;
+  }
+  
+  @keyframes flip-move-animation {
+    0% {
+        transform: translateY(0) rotateX(0);
+      }
+      50% {
+        transform: translateY(-220px) rotateX(720deg);
+      }
+      100% {
+        transform: translateY(0) rotateX(0);
+      }
+  }
+  
+  .coin-container {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+  }
+
+ .head-button, .tail-button{
+    background-color: #500097;
+    width: 120px;
+    height: 40px;
+    color:#fff;
+    border: 1px solid #500097;
+    text-transform: uppercase;
+    opacity: 0.7;
+ }
+ .head-button:hover, .tail-button:hover{
+    opacity:0.7;
+    background-color: #6f42c1;
+ }
+#manu{
+    color: #fff;
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 1);
+    font-size: 32px;
+    text-transform: capitalize;
+}
+.label01{
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    color:#fff;
+}
+.btn01{
+    background-color: transparent !important;
+}
+.man01, .man02{
+    background-color: transparent !important;
+    color: #fff !important;
+}
+.manu01{
+    width: 100% !important;
+}
+
+
+
+  
+
